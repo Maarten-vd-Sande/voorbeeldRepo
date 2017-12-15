@@ -1,2 +1,5 @@
 # negeer alle python gecompileerde bestanden van NumPy
 *.pyc
+
+# negeer de bestanden die mijn text-editor aanmaakt
+.idea/*
