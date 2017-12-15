@@ -1,0 +1,2 @@
+# negeer alle python gecompileerde bestanden van NumPy
+*.pyc
