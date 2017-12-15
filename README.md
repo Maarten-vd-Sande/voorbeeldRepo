@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ### Structuur (Structure)
 
-
+Alle Python scripts staan in de folder Code. In de map Data zitten alle input waardes en in de map resultaten worden alle resultaten opgeslagen door de code.
 
 ### Test (Testing)
 
