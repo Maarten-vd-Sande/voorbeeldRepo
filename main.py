@@ -1,9 +1,9 @@
 # voeg de huidige structuur toe aan path
 import os, sys
 directory = os.path.dirname(os.path.realpath(__file__))
-sys.path.append(directory + "/code")
-sys.path.append(directory + "/code/classes")
-sys.path.append(directory + "/code/algoritmes")
+sys.path.append(os.path.join(directory, "code"))
+sys.path.append(os.path.join(directory, "code", "classes"))
+sys.path.append(os.path.join(directory, "code", "algoritmes"))
 
 # importeer de gebruikte structuur
 from datastructuur import DataStructuur
